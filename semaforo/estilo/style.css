@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}
+
+#red:hover{
+    background-color: red;
+}
+
+#yellow:hover{
+    background-color: yellow;
+}
+
+#green:hover{
+    background-color: rgb(2, 255, 2);
+}
+
+#automatic:hover{
+    background-color: black;
+    color: white;
+}
